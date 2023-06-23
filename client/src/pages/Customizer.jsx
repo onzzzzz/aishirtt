@@ -62,7 +62,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('https://ai-shirt-project.onrender.com/api/v1/dalle', {
+      const response = await fetch("https://shirt2.onrender.com", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
